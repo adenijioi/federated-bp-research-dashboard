@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: federated-bp-research-dashboard
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /
+    autoDeploy: true
