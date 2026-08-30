@@ -1,0 +1,19 @@
+{
+  "name": "federated-bp-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vinext dev",
+    "build": "vinext build && node scripts/prepare-sites.mjs",
+    "start": "vinext start"
+  },
+  "dependencies": {
+    "next": "^16.3.3",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "vinext": "^1.0.0-beta.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-rsc": "^0.5.34"
+  }
+}
